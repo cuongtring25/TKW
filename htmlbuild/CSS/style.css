@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  font-size: 12px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  background-color: antiquewhite;
+  min-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.menu {
+  font-family: sacramento;
+}
+body {
+  background-image: url("../image/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+/* navbar */
+.navbar {
+  font-family: calibri;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 7px;
+  color: white;
+}
+li a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 10%;
+  width: 0;
+  background: white;
+  transition: 0.3s;
+}
+li a:hover::before {
+  width: 100%;
+}
+button {
+  margin-top: 5px;
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* heading */
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+h1:hover {
+  transform: scale(1.2);
+}
