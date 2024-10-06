@@ -10,13 +10,15 @@ header {
   min-height: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+footer {
+  border: 1px solid white;
+}
 .menu {
   font-family: sacramento;
 }
 body {
-  background-image: url("../image/back2.jpg");
+  background-image: url("../image/pink-sky-background-with-crescent-moon.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
 }
 a {
   text-decoration: none;
@@ -32,6 +34,7 @@ a:active {
   padding-top: 5px;
   background-color: transparent;
   border: 3px solid white;
+  border-top: none;
 }
 .navdiv {
   display: flex;
@@ -78,9 +81,18 @@ button a {
 h1 {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 4em;
   font-weight: bold;
 }
-h1:hover {
-  transform: scale(1.2);
+
+/* main */
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction {
+  border: 2px solid white;
+  border-radius: 0.5em;
+  max-width: 19em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
