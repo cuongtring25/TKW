@@ -11,15 +11,22 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
+  width: 100%;
 }
+
 .menu {
   font-family: sacramento;
 }
 body {
   background-image: url("../image/pink-sky-background-with-crescent-moon.jpg");
   background-repeat: no-repeat;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -103,8 +110,8 @@ li {
   color: white;
   border: 2px solid white;
   border-radius: 0.5em;
-  min-width: 35vw;
-  max-width: 38vw;
+  min-width: 5em;
+  max-width: 15em;
   max-height: fit-content;
   font-size: 20px;
 }
@@ -126,10 +133,19 @@ li {
   color: white;
   border: 2px white solid;
   border-radius: 0.5em;
-  min-width: 35vw;
-  max-width: 40vw;
+  min-width: 5em;
+  max-width: 18em;
   max-height: fit-content;
   background: palevioletred;
+}
+.OTPlist {
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+}
+.OTPlist li {
+  left: 0;
+  position: relative;
 }
 .OTPlist li a {
   color: white;
@@ -214,3 +230,53 @@ ul.menu li a {
   margin-right: 0.2em;
   color: white;
 }
+/* slider */
+/* .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 11em;
+}
+
+.slider {
+  height: 2em;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(20px * 3);
+}
+
+.slider .slide {
+  height: 10px;
+  width: 25px;
+}
+
+.slider .slide div {
+  width: 80%;
+  height: 10px;
+  border-radius: 0.6em;
+  border: 2px solid #bbbbbb;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-25px * 1.5));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-25px * 1.5));
+  }
+} */
