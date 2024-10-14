@@ -7,6 +7,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <style>
+      body {
+        background-image: url('./images/Publications background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+      }
+    </style>
     <title>Publications</title>
   </head>
   <body>
@@ -41,7 +49,154 @@
       </nav>
     </div>
     <footer>
-      <h3>calcacac</h3>
+      <h3>PUBLICATIONS OF YALE SCHOOL OF ART</h3>
+      <style>
+        footer {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 20px; /* Thêm khoảng cách bên trong footer */
+  background-color: #e5c9c9; /* Đổi màu nền nếu cần */
+}
+
+footer h3 {
+  margin: 0;
+  color: #333;
+}
+       </style>
     </footer>
   </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUBLICATIONS</title>
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <style>
+   /* Container chung để căn giữa toàn bộ trang */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa theo chiều ngang */
+  margin: 0 auto;
+  max-width: 1200px; /* Giới hạn chiều rộng của toàn bộ nội dung */
+}
+
+/* Style cho phần nội dung mỗi cuốn sách */
+.publication {
+  display: flex;
+  align-items: flex-start; /* Giữ hình ảnh và chữ nằm dọc theo phần đầu */
+  justify-content: center; /* Căn giữa hình ảnh và nội dung trong container */
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 1000px; /* Giới hạn độ rộng của mỗi khối cuốn sách */
+  width: 100%; /* Đảm bảo khối cuốn sách chiếm đủ không gian ngang */
+}
+
+/* Style cho hình ảnh bìa sách */
+.book-cover {
+  width: 150px; /* Thu nhỏ kích thước hình ảnh */
+  height: auto;
+  margin-right: 20px; /* Tạo khoảng cách giữa hình ảnh và văn bản */
+}
+
+/* Style cho phần chứa thông tin */
+.book-details {
+  max-width: 600px; /* Đặt giới hạn chiều rộng cho văn bản */
+  flex-grow: 1; /* Đảm bảo văn bản chiếm hết không gian còn lại */
+}
+
+.book-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.book-details p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.book-details a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.book-details a:hover {
+  text-decoration: underline;
+}
+
+/* Căn chỉnh tổng thể của trang để không bị trống phần bên phải */
+body {
+  background-image: url('./images/Publications background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Publications</h1>
+
+      <div class="publication">
+        <div class="book-details">
+          <h2>Body of Work: Yale School of Art MFA 2020</h2>
+          <p><strong>Author:</strong> Steven Rodriguez and Nicholas Weltyk</p>
+          <p><strong>Year:</strong> 2021</p>
+          <p><strong>Summary:</strong> Body of Work showcases the collected work of the graduating MFA class of 2020, and marks the fourth installment of Yale School of Art’s all-school MFA book series.</p>
+          <a href="https://www.mintoimages.com/body-of-work-yale-school-of-art-2020" class="download-link">Download PDF</a>
+        </div>
+        <img src="image/book_cover1.jpg" alt="Book Cover 1" class="book-cover" />
+      </div>
+
+      <div class="publication">
+        <div class="book-details">
+          <h2>Body of Work: Yale School of Art MFA 2019</h2>
+          <p><strong>Author:</strong> Willis Kingery, Edi Dai, David Knowles</p>
+          <p><strong>Year:</strong> 2019</p>
+          <p><strong>Summary:</strong> Body of Work showcases the collected work of the graduating MFA class of 2019, and marks the third installment of Yale School of Art's all-school MFA book series.</p>
+          <a href="https://books.google.com.vn/books/about/Body_of_Work.html?id=FdxUzQEACAAJ&redir_esc=y" class="download-link">Download PDF</a>
+        </div>
+        <img src="image/book_cover2.jpg" alt="Book Cover 2" class="book-cover" />
+      </div>
+
+      <div class="publication">
+        <div class="book-details">
+          <h2>Now Dig This</h2>
+          <p><strong>Author:</strong> Greg Tate</p>
+          <p><strong>Year:</strong> 2021</p>
+          <p><strong>Summary:</strong> Now Dig This marks the continuation of Yale School of Art Commencement—a series that publishes the speeches by speakers invited by the Dean on the occasion of the commencement of students receiving their MFA degrees from graphic design, painting/printmaking, photography, and sculpture.</p>
+          <a href="https://books.google.com.vn/books/about/Now_Dig_This.html?id=jU-PzgEACAAJ&redir_esc=y" class="download-link">Download PDF</a>
+        </div>
+        <img src="image/book_cover3.jpg" alt="Book Cover 3" class="book-cover" />
+      </div>
+
+      <div class="publication">
+        <div class="book-details">
+          <h2>Sermon of the Nonresponse</h2>
+          <p><strong>Author:</strong> Fred Moten</p>
+          <p><strong>Year:</strong> 2021</p>
+          <p><strong>Summary:</strong> Featuring a preamble by Dean Marta Kuzma, Sermon of the Nonresponse marked the inauguration of Yale School of Art Commencement—a series that publishes the speeches by speakers invited by the Dean on the occasion of the commencement of students receiving their MFA degrees.</p>
+          <a href="https://cdn.glitch.me/c1bb84fa-ec4b-43d4-b3f0-61e1c96d6325%2FMoten_Sermon_of_the_Nonresponse.pdf" class="download-link">Download PDF</a>
+        </div>
+        <img src="image/book_cover4.jpg" alt="Book Cover 4" class="book-cover" />
+      </div>
+
+    </div>
+  </body>
+</html>
+

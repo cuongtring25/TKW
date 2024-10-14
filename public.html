@@ -45,3 +45,157 @@
     </footer>
   </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Events</title>
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Style for title */
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    /* Container for events */
+    .event-list {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .event {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    .event h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .event p {
+      margin: 5px 0;
+    }
+
+    .event a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .event a:hover {
+      text-decoration: underline;
+    }
+
+    /* Style for login form */
+    .login-form {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 250px; /* Width similar to Facebook's login form */
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+    }
+
+    .login-form input {
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-form button {
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-form button:hover {
+      background-color: #218838;
+    }
+
+    /* Style for add new event form */
+    .add-event-form {
+      max-width: 800px;
+      margin: 40px auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      display: none; /* Initially hidden */
+    }
+
+    .add-event-form input, .add-event-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .add-event-form button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .add-event-form button:hover {
+      background-color: #218838;
+    }
+
+    .hidden {
+      display: none; /* Hide elements */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Public Events</h1>
+
+  <div class="event-list" id="event-list">
+    <!-- Example of an event -->
+    <div class="event">
+      <h2>Art Exhibition 2024</h2>
+      <p><strong>Date:</strong> October 20, 2024</p>
+      <p><strong>Location:</strong> Yale School of Art, New Haven, CT</p>
+      <p><strong>Details:</strong> <a href="event1-details.html">More Information</a></p>
+    </div>
+
+    <div class="event">
+      <h2>Creative Workshop</h2>
+      <p><strong>Date:</strong> November 10, 2024</p>
+      <p><strong>Location:</strong> Yale School of Art, Room 101</p>
+      <p><strong>Details:</strong> <a href="event2-details.html">More Information</a></p>
+    </div>
+  </div>
+  </script>
+
+</body>
+</html>
