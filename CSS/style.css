@@ -34,6 +34,9 @@ a {
 a:active {
   color: black;
 }
+a:hover {
+  color: aqua;
+}
 /* navbar */
 .navbar {
   font-family: calibri;
@@ -43,6 +46,7 @@ a:active {
   background-color: transparent;
   border: 3px solid white;
   border-top: none;
+  width: 100%;
 }
 .navdiv {
   display: flex;
@@ -87,8 +91,11 @@ button a {
   font-weight: bold;
   font-size: 15px;
 }
+.container {
+  width: 100%;
+}
 /* heading */
-h1 {
+h1.heading {
   text-align: center;
   color: white;
   font-size: 4em;
@@ -100,8 +107,9 @@ li {
 /* main */
 .main {
   display: flex;
-  gap: 1vw;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vw;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* introduction */
@@ -109,18 +117,18 @@ li {
   background: palevioletred;
   color: white;
   border: 2px solid white;
-  border-radius: 0.5em;
-  min-width: 5em;
-  max-width: 15em;
+  border-radius: 5px;
+  min-width: 480px;
+  max-width: 550px;
   max-height: fit-content;
-  font-size: 20px;
+  font-size: 18px;
 }
 .tit {
   text-align: center;
   font-weight: bold;
   background: skyblue;
   padding: 2vw;
-  border-radius: 0.5em;
+  border-radius: 5px;
   font-size: 1em;
   border-bottom: 1px white solid;
 }
@@ -132,9 +140,9 @@ li {
 .onthispage {
   color: white;
   border: 2px white solid;
-  border-radius: 0.5em;
-  min-width: 5em;
-  max-width: 18em;
+  border-radius: 5px;
+  min-width: 480px;
+  max-width: 550px;
   max-height: fit-content;
   background: palevioletred;
 }
@@ -166,8 +174,9 @@ li {
   align-items: center;
   border: 2px white solid;
   font-size: 1.1em;
-  min-width: 20vw;
-  border-radius: 0.5em;
+  min-width: 300px;
+  max-width: 450px;
+  border-radius: 5px;
   padding: 2vw;
   cursor: pointer;
   transition: background 0.3s;
@@ -196,7 +205,7 @@ li {
   background: palevioletred;
   border: 1px #363a43 solid;
   box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
-  border-radius: 0.5em;
+  border-radius: 5px;
   color: #9fa5b5;
   position: absolute;
   left: 50%;
@@ -209,9 +218,10 @@ li {
 .menu li {
   padding: 0.4em 0.2em;
   margin: 0.3em 0;
-  border-radius: 0.5em;
+  border-radius: 5px;
   cursor: pointer;
-  min-width: 30vw;
+  min-width: 300px;
+  max-width: 500px;
 }
 .menu li:hover {
   background: #2a2d35;
@@ -230,53 +240,81 @@ ul.menu li a {
   margin-right: 0.2em;
   color: white;
 }
-/* slider */
-/* .wrapper {
+/* content */
+.content {
+  /* display: flex; */
+}
+.content-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/* happening at SOA */
+.HAS {
+  /* background: yellowgreen;
+  border: 1px skyblue solid; */
+  font-family: arial;
+  font-weight: 343;
+}
+.HAScon {
+  background: linear-gradient(45deg, yellowgreen, skyblue, white);
+  font-size: 25px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 11em;
+  flex-direction: column;
 }
-
-.slider {
-  height: 2em;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 80%;
-}
-.slider .slide-track {
-  -webkit-animation: scroll 30s linear infinite;
-  animation: scroll 30s linear infinite;
+.HAScon1 {
   display: flex;
-  width: calc(20px * 3);
+  flex-direction: column;
+  padding-bottom: 20px;
+  border: 2px yellowgreen solid;
+}
+.archive {
+  padding-top: 8px;
+  font-size: 18px;
+}
+.HAS2 {
+  padding-bottom: 20px;
+  border: 2px yellowgreen solid;
+  border-top: none;
+}
+/* resolution */
+@media only screen and(max-width:1400px) and(min-width:700px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .HAS {
+    min-width: 480px;
+    max-width: 550px;
+  }
+  .HAScon {
+    font-size: 18px;
+  }
 }
 
-.slider .slide {
-  height: 10px;
-  width: 25px;
+@media only screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .HAS {
+    min-width: 480px;
+    max-width: 550px;
+  }
+  .HAScon {
+    font-size: 18px;
+  }
 }
-
-.slider .slide div {
-  width: 80%;
-  height: 10px;
-  border-radius: 0.6em;
-  border: 2px solid #bbbbbb;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-25px * 1.5));
-  }
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-25px * 1.5));
-  }
-} */
