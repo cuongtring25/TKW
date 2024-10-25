@@ -45,14 +45,13 @@ a:hover {
   padding-right: 15px;
   padding-top: 5px;
   background-color: transparent;
-  border: 3px solid white;
-  border-top: none;
-  width: 100%;
+  border: 3px solid wheat;
+  width: 100% !important;
 }
 .navdiv {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1vw;
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 1vw !important;
   /* text-wrap: wrap; */
 }
 .head {
