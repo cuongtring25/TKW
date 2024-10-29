@@ -40,7 +40,7 @@ a:hover {
   color: aqua;
 }
 /* navbar */
-.navbar {
+.navbars {
   font-family: calibri;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,7 +49,7 @@ a:hover {
   border: 3px solid wheat;
   width: 100% !important;
 }
-.navdiv {
+.navdivs {
   display: flex !important;
   justify-content: space-between !important;
   font-size: 1vw !important;

@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
 
     <title>Exhibitions - Yale School of Art</title>
     <style>
@@ -62,9 +62,13 @@
         max-height: 300px;
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/test.css" />
     <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
   </head>
-
   <body>
     <header>
       <div>Yale School of Art</div>
@@ -73,8 +77,8 @@
     </header>
     <div class="container-fluid">
       <!-- Navbar Section -->
-      <nav class="navbar">
-        <div class="navdiv" id="my">
+      <nav class="navbars">
+        <div class="navdivs">
           <div class="logo">
             <a href="index.html"
               ><img src="./image/Yale_School_of_Art.png" alt=""
@@ -235,33 +239,50 @@
           <strong>art@yale.edu</strong>.
         </p>
       </div>
+      <footer>
+        <div style="font-weight: bolder; font-size: 20px">
+          Check out for our Social Media
+        </div>
+        <div class="wrapper">
+          <a href="https://www.facebook.com/YaleSchoolofArt/" class="buttonF">
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+          </a>
+          <a href="https://x.com/YaleSchoolofArt" class="buttonF">
+            <div class="icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/yaleschoolofart/" class="buttonF">
+            <div class="icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.art.yale.edu/about/contact" class="buttonF">
+            <div class="icon">
+              <i class="fa-solid fa-hashtag"></i>
+            </div>
+            <span>Contact</span>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA"
+            class="buttonF"
+          >
+            <div class="icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <span>YouTube</span>
+          </a>
+        </div>
+      </footer>
     </div>
 
     <!-- Footer Section from file gốc.html -->
-    <footer class="yale-footer" aria-label="primary footer">
-      <div class="yale-footer__inner">
-        <p><span>© 2024</span></p>
-        <ul>
-          <li><a href="/about/support-the-school">Support the School</a></li>
-          <li><a href="/about/visiting">Visiting</a></li>
-          <li>
-            <a href="https://www.instagram.com/yaleschoolofart/">Instagram</a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/YaleSchoolofArt/">Facebook</a>
-          </li>
-          <li><a href="http://yaleart.org/youtube">YouTube</a></li>
-          <li><a href="/about/contact">Contact</a></li>
-          <li><a href="/sitemap">Sitemap</a></li>
-          <li>
-            <a
-              href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy"
-              >Accessibility at Yale</a
-            >
-          </li>
-        </ul>
-      </div>
-    </footer>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
       integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
