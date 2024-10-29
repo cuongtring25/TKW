@@ -20,8 +20,9 @@ footer {
   font-family: sacramento;
 }
 body {
-  background-image: url("../image/pink-sky-background-with-crescent-moon.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../image/background2.png");
+  /* background-repeat: no-repeat; */
+  width: 100%;
 }
 html,
 body {
@@ -30,7 +31,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: bisque;
+  color: #ba4e6e;
 }
 a:active {
   color: black;
@@ -97,7 +98,7 @@ button a {
 /* heading */
 h1.heading {
   text-align: center;
-  color: white;
+  color: #836c58;
   font-size: 72px;
   font-weight: bold;
   text-transform: uppercase;
