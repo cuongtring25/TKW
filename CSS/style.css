@@ -243,6 +243,7 @@ ul.menu li a {
   margin-right: 0.2em;
   color: white;
 }
+
 /* content */
 .content {
   display: flex;
@@ -255,6 +256,7 @@ ul.menu li a {
   font-size: 20px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
 /* happening at SOA */
 .HAS {
   /* background: yellowgreen;
@@ -273,6 +275,7 @@ ul.menu li a {
   flex-direction: column;
   padding-bottom: 20px;
   border: 2px yellowgreen solid;
+  border-radius: 5px;
 }
 .archive {
   padding-top: 8px;
@@ -282,6 +285,7 @@ ul.menu li a {
   padding-bottom: 20px;
   border: 2px yellowgreen solid;
   border-top: none;
+  border-radius: 5px;
 }
 /* community bulletin board */
 .pcontent {
