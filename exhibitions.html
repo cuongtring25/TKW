@@ -21,7 +21,7 @@
 
       .title {
         text-transform: uppercase;
-        background-color: #fff003;
+        background-color: #03e43f62;
         padding: 1rem 0;
         text-align: center;
       }
@@ -45,7 +45,7 @@
 
       .exhibition-section h2,
       .exhibition-section h4 {
-        color: #333;
+        color: hwb(0 4% 96%);
       }
 
       .exhibition-section p,
@@ -61,7 +61,67 @@
         margin: 0 auto;
         max-height: 300px;
       }
-    </style>
+    
+.title {
+    text-transform: uppercase;
+    background-color: #227311;
+    padding: 1rem 0;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.title:hover {
+    color: #f3eb53; /* Change to a different color on hover */
+    transform: scale(1.05); /* Slightly enlarge the heading */
+}
+
+.title:active {
+    transform: scale(0.95); /* Slightly shrink the heading on click */
+}
+
+
+.exhibition-section {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.exhibition-section:hover {
+    background-color: #e2e6ea; /* Change to a lighter shade on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+
+.exhibition-section {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.exhibition-section:hover {
+    background-color: #e2e6ea; /* Change to a lighter shade on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transform: scale(1.03); /* Slightly zoom in on hover */
+}
+
+
+.info-section,
+.about-section {
+    padding: 2rem;
+    background-color: rgb(227, 255, 255);
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.info-section:hover,
+.about-section:hover {
+    transform: scale(1.03); /* Slightly zoom in on hover */
+}
+
+</style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
