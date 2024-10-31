@@ -9,7 +9,7 @@ section.hidden {
   display: flex;
   gap: 7px;
   min-height: 30vh;
-  border: 2px black solid;
+  border: 2px skyblue solid;
   border-radius: 6px;
 }
 .hidden img {
@@ -31,4 +31,7 @@ section.hidden {
   .hidden {
     transition: none;
   }
+}
+section.hidden {
+  background: skyblue;
 }
