@@ -65,18 +65,7 @@
       .book-details a:hover {
         text-decoration: underline;
       }
-
       /* Căn chỉnh tổng thể của trang để không bị trống phần bên phải */
-      body {
-        background-image: url("./images/Publications_background.jpg");
-        /* background-size: cover;   */
-        background-position: center;
-        /* background-repeat: no-repeat; */
-        /* min-height: 100vh; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
     </style>
     <link
       rel="stylesheet"
@@ -84,20 +73,14 @@
     />
     <link rel="stylesheet" href="./CSS/test.css" />
     <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/other.css" />
   </head>
   <body>
     <header>
-      <div>Yale School of Art</div>
-      <div>1156 Chapel Street, POB 208339</div>
-      <div>New Haven, Connecticut, 06520-8339</div>
-    </header>
-    <div class="container">
       <nav class="navbars">
         <div class="navdivs">
           <div class="logo">
-            <a href="index.html"
-              ><img src="./image/Yale_School_of_Art.png" alt=""
-            /></a>
+            <a href="index.html"><img src="./image/newlogo2.png" alt="" /></a>
           </div>
           <ul>
             <li class="head"><a href="./index.html">Home</a></li>
@@ -115,7 +98,9 @@
           </ul>
         </div>
       </nav>
-      <h1>Publications</h1>
+    </header>
+    <div class="container">
+      <h1 class="">Publications</h1>
 
       <div class="publication">
         <div class="book-details">
@@ -239,31 +224,6 @@
           class="book-cover"
         />
       </div>
-
-      <div class="publication">
-        <div class="book-details">
-          <h2>Sermon of the Nonresponse</h2>
-          <p><strong>Author:</strong> Fred Moten</p>
-          <p><strong>Year:</strong> 2021</p>
-          <p>
-            <strong>Summary:</strong> Featuring a preamble by Dean Marta Kuzma,
-            Sermon of the Nonresponse marked the inauguration of Yale School of
-            Art Commencement—a series that publishes the speeches by speakers
-            invited by the Dean on the occasion of the commencement of students
-            receiving their MFA degrees.
-          </p>
-          <a
-            href="https://cdn.glitch.me/c1bb84fa-ec4b-43d4-b3f0-61e1c96d6325%2FMoten_Sermon_of_the_Nonresponse.pdf"
-            class="download-link"
-            >Download PDF</a
-          >
-        </div>
-        <img
-          src="image/book_cover4.jpg"
-          alt="Book Cover 4"
-          class="book-cover"
-        />
-      </div>
     </div>
     <footer>
       <div style="font-weight: bolder; font-size: 20px">
@@ -305,5 +265,10 @@
         </a>
       </div>
     </footer>
+    <div class="info">
+      <div>Yale School of Art</div>
+      <div>1156 Chapel Street, POB 208339</div>
+      <div>New Haven, Connecticut, 06520-8339</div>
+    </div>
   </body>
 </html>

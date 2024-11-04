@@ -3,20 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />-->
 
     <title>Yale School of Art</title>
     <style>
       /* Custom styling */
-      body {
-        font-family: Arial, sans-serif;
-      }
       /* .navbar {
         background-color: #fff003;
         padding: 1rem;
@@ -78,40 +74,33 @@
     />
     <link rel="stylesheet" href="./CSS/test.css" />
     <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/other.css" />
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <div>Yale School of Art</div>
-      <div>1156 Chapel Street, POB 208339</div>
-      <div>New Haven, Connecticut, 06520-8339</div>
-    </header>
-
-    <!-- Navigation Bar -->
-    <nav class="navbars">
-      <div class="navdivs">
-        <div class="logo">
-          <a href="index.html"
-            ><img src="./image/Yale_School_of_Art.png" alt=""
-          /></a>
+      <nav class="navbars">
+        <div class="navdivs">
+          <div class="logo">
+            <a href="index.html"><img src="./image/newlogo2.png" alt="" /></a>
+          </div>
+          <ul>
+            <li class="head"><a href="./index.html">Home</a></li>
+            <li class="head"><a href="./about.html">About the school</a></li>
+            <li class="head"><a href="./apply.html">Apply to the School</a></li>
+            <li class="head">
+              <a href="./publilcations.html">Publications</a>
+            </li>
+            <li class="head"><a href="./news.html">News</a></li>
+            <li class="head"><a href="./public.html">Public Events</a></li>
+            <li class="head"><a href="./exhibitions.html">Exhibitions</a></li>
+            <button>
+              <a href="https://www.art.yale.edu/login">Sign in</a>
+            </button>
+          </ul>
         </div>
-        <ul>
-          <li class="head"><a href="./index.html">Home</a></li>
-          <li class="head"><a href="./about.html">About the school</a></li>
-          <li class="head"><a href="./apply.html">Apply to the School</a></li>
-          <li class="head">
-            <a href="./publilcations.html">Publications</a>
-          </li>
-          <li class="head"><a href="./news.html">News</a></li>
-          <li class="head"><a href="./public.html">Public Events</a></li>
-          <li class="head"><a href="./exhibitions.html">Exhibitions</a></li>
-          <button>
-            <a href="https://www.art.yale.edu/login">Sign in</a>
-          </button>
-        </ul>
-      </div>
-    </nav>
-
+      </nav>
+    </header>
     <!-- Title Section -->
     <section class="title-section">
       <h1>About the School</h1>
@@ -245,7 +234,11 @@
         </a>
       </div>
     </footer>
-
+    <div class="info">
+      <div>Yale School of Art</div>
+      <div>1156 Chapel Street, POB 208339</div>
+      <div>New Haven, Connecticut, 06520-8339</div>
+    </div>
     <!-- Bootstrap JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"

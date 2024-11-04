@@ -55,94 +55,84 @@
 
       /* Image resizing */
       .upward-spiral-image {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         display: block;
         margin: 0 auto;
         max-height: 300px;
       }
-    
-.title {
-    text-transform: uppercase;
-    background-color: #227311;
-    padding: 1rem 0;
-    text-align: center;
-    transition: transform 0.3s ease, color 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer on hover */
-}
 
-.title:hover {
-    color: #f3eb53; /* Change to a different color on hover */
-    transform: scale(1.05); /* Slightly enlarge the heading */
-}
+      .title {
+        text-transform: uppercase;
+        background-color: #227311;
+        padding: 1rem 0;
+        text-align: center;
+        transition: transform 0.3s ease, color 0.3s ease;
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
 
-.title:active {
-    transform: scale(0.95); /* Slightly shrink the heading on click */
-}
+      .title:hover {
+        color: #f3eb53; /* Change to a different color on hover */
+        transform: scale(1.05); /* Slightly enlarge the heading */
+      }
 
+      .title:active {
+        transform: scale(0.95); /* Slightly shrink the heading on click */
+      }
 
-.exhibition-section {
-    padding: 2rem;
-    background-color: #f8f9fa;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer on hover */
-}
+      .exhibition-section {
+        padding: 2rem;
+        background-color: #f8f9fa;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
 
-.exhibition-section:hover {
-    background-color: #e2e6ea; /* Change to a lighter shade on hover */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-}
+      .exhibition-section:hover {
+        background-color: #e2e6ea; /* Change to a lighter shade on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+      }
 
+      .exhibition-section {
+        padding: 2rem;
+        background-color: #f8f9fa;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease,
+          transform 0.3s ease;
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
 
-.exhibition-section {
-    padding: 2rem;
-    background-color: #f8f9fa;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer on hover */
-}
+      .exhibition-section:hover {
+        background-color: #e2e6ea; /* Change to a lighter shade on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+        transform: scale(1.03); /* Slightly zoom in on hover */
+      }
 
-.exhibition-section:hover {
-    background-color: #e2e6ea; /* Change to a lighter shade on hover */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    transform: scale(1.03); /* Slightly zoom in on hover */
-}
+      .info-section,
+      .about-section {
+        padding: 2rem;
+        background-color: rgb(227, 255, 255);
+        transition: transform 0.3s ease;
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
 
-
-.info-section,
-.about-section {
-    padding: 2rem;
-    background-color: rgb(227, 255, 255);
-    transition: transform 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer on hover */
-}
-
-.info-section:hover,
-.about-section:hover {
-    transform: scale(1.03); /* Slightly zoom in on hover */
-}
-
-</style>
+      .info-section:hover,
+      .about-section:hover {
+        transform: scale(1.03); /* Slightly zoom in on hover */
+      }
+    </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link rel="stylesheet" href="./CSS/test.css" />
     <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/other.css" />
   </head>
   <body>
     <header>
-      <div>Yale School of Art</div>
-      <div>1156 Chapel Street, POB 208339</div>
-      <div>New Haven, Connecticut, 06520-8339</div>
-    </header>
-    <div class="container-fluid">
-      <!-- Navbar Section -->
       <nav class="navbars">
         <div class="navdivs">
           <div class="logo">
-            <a href="index.html"
-              ><img src="./image/Yale_School_of_Art.png" alt=""
-            /></a>
+            <a href="index.html"><img src="./image/newlogo2.png" alt="" /></a>
           </div>
           <ul>
             <li class="head"><a href="./index.html">Home</a></li>
@@ -160,6 +150,9 @@
           </ul>
         </div>
       </nav>
+    </header>
+    <div class="container-fluid">
+      <!-- Navbar Section -->
 
       <!-- Title Section -->
       <div class="row text-center my-5">
@@ -299,50 +292,54 @@
           <strong>art@yale.edu</strong>.
         </p>
       </div>
-      <footer>
-        <div style="font-weight: bolder; font-size: 20px">
-          Check out for our Social Media
-        </div>
-        <div class="wrapper">
-          <a href="https://www.facebook.com/YaleSchoolofArt/" class="buttonF">
-            <div class="icon">
-              <i class="fab fa-facebook-f"></i>
-            </div>
-            <span>Facebook</span>
-          </a>
-          <a href="https://x.com/YaleSchoolofArt" class="buttonF">
-            <div class="icon">
-              <i class="fa-brands fa-x-twitter"></i>
-            </div>
-            <span>Twitter</span>
-          </a>
-          <a href="https://www.instagram.com/yaleschoolofart/" class="buttonF">
-            <div class="icon">
-              <i class="fab fa-instagram"></i>
-            </div>
-            <span>Instagram</span>
-          </a>
-          <a href="https://www.art.yale.edu/about/contact" class="buttonF">
-            <div class="icon">
-              <i class="fa-solid fa-hashtag"></i>
-            </div>
-            <span>Contact</span>
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA"
-            class="buttonF"
-          >
-            <div class="icon">
-              <i class="fab fa-youtube"></i>
-            </div>
-            <span>YouTube</span>
-          </a>
-        </div>
-      </footer>
     </div>
 
     <!-- Footer Section from file gốc.html -->
-
+    <footer>
+      <div style="font-weight: bolder; font-size: 20px">
+        Check out for our Social Media
+      </div>
+      <div class="wrapper">
+        <a href="https://www.facebook.com/YaleSchoolofArt/" class="buttonF">
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <span>Facebook</span>
+        </a>
+        <a href="https://x.com/YaleSchoolofArt" class="buttonF">
+          <div class="icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.instagram.com/yaleschoolofart/" class="buttonF">
+          <div class="icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.art.yale.edu/about/contact" class="buttonF">
+          <div class="icon">
+            <i class="fa-solid fa-hashtag"></i>
+          </div>
+          <span>Contact</span>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA"
+          class="buttonF"
+        >
+          <div class="icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <span>YouTube</span>
+        </a>
+      </div>
+    </footer>
+    <div class="info">
+      <div>Yale School of Art</div>
+      <div>1156 Chapel Street, POB 208339</div>
+      <div>New Haven, Connecticut, 06520-8339</div>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
       integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="

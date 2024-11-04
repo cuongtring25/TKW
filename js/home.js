@@ -10,3 +10,14 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+const HAScontentSections = document.querySelectorAll(".HAScontent");
+window.addEventListener("scroll", () => {
+  HAScontentSections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top;
+    if (sectionTop < window.innerHeight) {
+      section.classList.add("visible");
+    } else {
+      section.classList.remove("visible");
+    }
+  });
+});
