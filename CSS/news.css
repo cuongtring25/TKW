@@ -27,6 +27,28 @@ section.hidden {
   filter: blur(0);
   transform: translateX(0);
 }
+h2.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 45px;
+  background: linear-gradient(
+    to right,
+    #64c287,
+    #48d0c6,
+    #3fc3d8,
+    #3f9ad8,
+    #3075db
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
 @media (prefers-reduced-motion) {
   .hidden {
     transition: none;

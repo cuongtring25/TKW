@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400|Playfair+Display:400,700,400italic|Libre+Baskerville:400,700,400italic|Muli:300,400|Open+Sans:400,300,700|Oswald:400,700|Raleway:400,100,300,700|Montserrat:400,700|Merriweather:400,300,300italic,400italic,700|Bree+Serif|Vollkorn:400italic,400,700|Abril+Fatface|Cardo:400,400italic);
+header {
+  max-height: 300px;
+  width: 100%;
+  background: url("../image/pexels-emily-ranquist-493228-1205651.jpg");
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  margin-bottom: 20px;
+}
+section.title-section h1 {
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 1px 4px #69b4b5;
+  /* color: linear-gradient(45deg, white, gray); */
+  /* color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; */
+}
+.container.about-links {
+  margin-top: 10px;
+}
+.container.about-links a {
+  color: grey;
+}

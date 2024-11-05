@@ -4,41 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
 
     <title>Exhibitions - Yale School of Art</title>
     <style>
       .container-fluid {
         /* background-image: url("https://cdn.filestackcontent.com/4qGdXWtnRkiHqiMsTD1T"); */
         height: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
       }
-
-      .title {
-        text-transform: uppercase;
-        background-color: #03e43f62;
-        padding: 1rem 0;
-        text-align: center;
-      }
-
       .about-section,
       .info-section,
       .bottom-info-section {
+        margin: 20px;
         padding: 2rem;
         background-color: rgb(227, 255, 255);
       }
 
       .bottom-info-section {
-        background-image: linear-gradient(to right, white, #fff003);
+        background-image: linear-gradient(to right, white, skyblue);
       }
 
       /* New background style for exhibition sections */
       .exhibition-section {
+        margin: 20px;
         padding: 2rem;
         background-color: #f8f9fa;
       }
@@ -61,32 +57,12 @@
         margin: 0 auto;
         max-height: 300px;
       }
-
-      .title {
-        text-transform: uppercase;
-        background-color: #227311;
-        padding: 1rem 0;
-        text-align: center;
-        transition: transform 0.3s ease, color 0.3s ease;
-        cursor: pointer; /* Change cursor to pointer on hover */
-      }
-
-      .title:hover {
-        color: #f3eb53; /* Change to a different color on hover */
-        transform: scale(1.05); /* Slightly enlarge the heading */
-      }
-
-      .title:active {
-        transform: scale(0.95); /* Slightly shrink the heading on click */
-      }
-
       .exhibition-section {
         padding: 2rem;
         background-color: #f8f9fa;
         transition: background-color 0.3s ease, box-shadow 0.3s ease;
         cursor: pointer; /* Change cursor to pointer on hover */
       }
-
       .exhibition-section:hover {
         background-color: #e2e6ea; /* Change to a lighter shade on hover */
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
@@ -142,7 +118,7 @@
               <a href="./publilcations.html">Publications</a>
             </li>
             <li class="head"><a href="./news.html">News</a></li>
-            <li class="head"><a href="./public.html">Public Events</a></li>
+
             <li class="head"><a href="./exhibitions.html">Exhibitions</a></li>
             <button>
               <a href="https://www.art.yale.edu/login">Sign in</a>
@@ -150,19 +126,17 @@
           </ul>
         </div>
       </nav>
+      <section class="title-section">
+        <h1>Exhibitions</h1>
+      </section>
     </header>
     <div class="container-fluid">
       <!-- Navbar Section -->
 
       <!-- Title Section -->
-      <div class="row text-center my-5">
-        <div class="col">
-          <h1 class="title">Exhibitions</h1>
-        </div>
-      </div>
 
       <!-- About Section -->
-      <div class="about-section mx-auto my-4">
+      <div class="about-section">
         <p>
           The School of Art galleries in Green Hall provide a year-round forum
           for the exhibition of work by students, faculty, and special guests in
@@ -183,7 +157,7 @@
       </div>
 
       <!-- Faculty & Students Info Section -->
-      <div class="info-section mx-auto my-4">
+      <div class="info-section">
         <h3>For SoA faculty & students</h3>
         <p>
           More about gallery spaces, when they're available, & the
@@ -192,7 +166,7 @@
       </div>
 
       <!-- Exhibition Section with Updated Background -->
-      <div class="exhibition-section mx-auto my-4">
+      <div class="exhibition-section">
         <h2>Upward Spiral</h2>
         <h4>Second-Year MFA Exhibition</h4>
         <p><strong>Green Hall Gallery</strong></p>
@@ -214,7 +188,7 @@
       </div>
 
       <!-- Fall 2024 Exhibition Schedule -->
-      <div class="exhibition-section mx-auto my-4">
+      <div class="exhibition-section">
         <h2>Fall 2024 in Green Hall Gallery</h2>
         <h4>Exhibition Schedule</h4>
         <ul>
@@ -244,7 +218,7 @@
       </div>
 
       <!-- Spring 2025 Exhibition Schedule -->
-      <div class="exhibition-section mx-auto my-4">
+      <div class="exhibition-section">
         <h2>Spring 2025 in Green Hall Gallery</h2>
         <h4>Exhibition Schedule</h4>
         <ul>
@@ -272,7 +246,7 @@
       </div>
 
       <!-- Visiting Information -->
-      <div class="info-section mx-auto my-4">
+      <div class="info-section">
         <h3>Visiting Information</h3>
         <p>
           The Yale School of Art galleries remain open to the public on weekdays
@@ -285,7 +259,7 @@
       </div>
 
       <!-- Contact Section -->
-      <div class="bottom-info-section mx-auto my-4">
+      <div class="bottom-info-section">
         <p>
           For more information, contact the School of Art at
           <strong>(203) 432-2600</strong> or via email at

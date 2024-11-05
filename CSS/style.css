@@ -254,7 +254,7 @@ ul.menu li a {
   gap: 20px;
 }
 .HAScontent {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
