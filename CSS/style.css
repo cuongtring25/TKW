@@ -93,6 +93,7 @@ button a {
   color: white;
   font-weight: bold;
   font-size: 15px;
+  text-transform: uppercase;
 }
 /* heading */
 h1.heading {
