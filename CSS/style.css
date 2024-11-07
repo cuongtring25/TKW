@@ -250,10 +250,11 @@ ul.menu li a {
   margin-bottom: 150px;
 }
 .HAScon {
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   gap: 60px;
+  text-align: center;
 }
 .HAScontent {
   width: 350px;
@@ -264,6 +265,7 @@ ul.menu li a {
   background-color: #fff3f3;
   box-sizing: border-box;
 }
+
 .HAScontent:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
