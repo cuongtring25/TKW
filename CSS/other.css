@@ -16,6 +16,7 @@ header {
   padding: 2rem 0;
 }
 section.title-section h1 {
+  text-transform: uppercase;
   font-family: "PT Sans", Calibri, Tahoma, sans-serif;
   font-size: 45px;
   font-weight: 600;
