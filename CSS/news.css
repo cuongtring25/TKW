@@ -13,8 +13,8 @@ section.hidden {
   border-radius: 6px;
 }
 .hidden img {
-  width: auto;
-  height: 30vh;
+  width: 180px;
+  /* height: 30vh; */
 }
 .hidden {
   opacity: 0;
@@ -56,4 +56,5 @@ h2.heading {
 }
 section.hidden {
   background: skyblue;
+  padding: 5px;
 }
