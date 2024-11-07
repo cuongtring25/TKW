@@ -26,7 +26,7 @@
   transition: 0.5s;
 }
 .layer:hover {
-  background-color: rgba(29, 40, 126, 0.104);
+  background-color: rgb(204, 215, 230);
 }
 .layer .description {
   transform: translateX(-50%);
