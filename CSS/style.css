@@ -302,6 +302,7 @@ ul.menu li a {
   );
   border: 1px #23242a solid;
   border-radius: 5px;
+  padding: 10px 5px 10px 5px;
 }
 /* resolution */
 @media only screen and(max-width:1200px) {
