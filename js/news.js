@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 //slider news page
-var autoplayInterval = 8000;
+var autoplayInterval = 3000;
 var autoplayTimer = null;
 var autoplay = true;
 var newIndex = 1;
