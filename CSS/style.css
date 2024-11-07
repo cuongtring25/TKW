@@ -334,6 +334,9 @@ ul.menu li a {
   h1.heading {
     font-size: 60px;
   }
+  footer {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -371,6 +374,12 @@ ul.menu li a {
   .hidden img {
     width: 100px;
     height: auto;
+  }
+  footer {
+    display: none;
+  }
+  .slide img {
+    width: 200px;
   }
 }
 /* slider page news */
