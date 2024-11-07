@@ -480,3 +480,34 @@ ul.menu li a {
     margin: 0 auto;
   }
 }
+.slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00356b; /* Yale Blue color */
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 80%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+}
