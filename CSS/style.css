@@ -193,10 +193,10 @@ li {
   max-width: 500px;
 }
 .menu li:hover {
-  background: #2a2d35;
+  background: #7b94d943;
 }
 .active {
-  background: #23242a;
+  background: #60678c40;
 }
 .menu-open {
   display: block;
