@@ -284,7 +284,7 @@ ul.menu li a {
 }
 .phead {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-shadow: 0.5px 1px 1px brown;
+  text-shadow: 0.5px 1px 1px rgb(187, 184, 184);
 }
 /* calendar and newsletter */
 .cale .content {
@@ -294,7 +294,7 @@ ul.menu li a {
 
 .p1 {
   max-width: 400px;
-  background: linear-gradient(60deg, skyblue, pink);
+  background: linear-gradient(60deg, rgba(119, 189, 240, 0.266), rgb(245, 245, 247));
   border: 1px #23242a solid;
   border-radius: 5px;
 }
