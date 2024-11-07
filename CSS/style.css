@@ -288,7 +288,7 @@ ul.menu li a {
 
 .p1 {
   max-width: 400px;
-  background: linear-gradient(60deg, skyblue, pink);
+  background: linear-gradient(60deg, rgba(72, 104, 194, 0.814), rgb(245, 245, 247));
   border: 1px #23242a solid;
   border-radius: 5px;
 }
