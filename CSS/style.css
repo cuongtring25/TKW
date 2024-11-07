@@ -282,7 +282,7 @@ ul.menu li a {
 }
 .phead {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-shadow: 0.5px 1px 1px brown;
+  text-shadow: 0.5px 1px 1px rgb(187, 184, 184);
 }
 /* calendar and newsletter */
 .cale .content {
